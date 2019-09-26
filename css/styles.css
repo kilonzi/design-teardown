@@ -94,12 +94,14 @@ li>button {
 }
 
 a>img {
-    height: 100px;
+    height: 60px;
     width: auto;
 }
 
 .nav-icon>img {
-    height: 50px;
+    height: 40px;
+    transform: rotate(-15deg);
+    padding: 15px 0px;
 }
 
 
@@ -163,6 +165,7 @@ br {
     color: black;
     z-index: 5;
     text-align: center;
+    line-height: 30px;
 }
 
 mark {
@@ -181,12 +184,12 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
 }
 
