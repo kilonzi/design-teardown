@@ -4,4 +4,4 @@ linters:
 
 files:
     ignore:
-       - 'reset.css'
+       - 'css/reset.css'
