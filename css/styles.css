@@ -11,6 +11,7 @@
 html,
 body {
     background-color: var(--default);
+    font-family: 'Spectral', serif;
 }
 
 
@@ -41,7 +42,8 @@ body {
 
 /* HEADER CONTENT */
 
-header {
+header,
+nav {
     background-color: var(--gray-5);
     min-height: 6.2rem;
     position: relative;
@@ -49,11 +51,55 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 160px;
 }
 
 nav>img {
     height: 100px;
     padding: 10px 20px;
+    width: auto;
+}
+
+ul {
+    display: flex;
+    min-height: 6.2rem;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+li {
+    width: fit-content;
+    text-align: center;
+}
+
+li>a {
+    width: auto;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+li>button {
+    height: 50px;
+    width: 140px;
+    border: 4px solid white;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: transparent;
+    color: white;
+}
+
+a>img {
+    height: 100px;
+    width: auto;
+}
+
+.nav-icon>img {
+    height: 50px;
 }
 
 
@@ -98,4 +144,56 @@ nav>img {
     background-color: var(--gray-4);
     min-height: var(--min-height);
     height: 100vh;
+}
+
+.latest {
+    display: flex;
+    justify-content: center;
+}
+
+br {
+    padding: 1px 0;
+}
+
+.latest-articles {
+    position: absolute;
+    top: 180px;
+    margin-left: auto;
+    background-color: transparent;
+    color: black;
+    z-index: 5;
+    text-align: center;
+}
+
+mark {
+    background-color: var(--default);
+}
+
+
+/* FONT SIZE */
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 10px;
 }
