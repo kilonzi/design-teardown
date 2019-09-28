@@ -13,6 +13,12 @@
     src: url("https://d33wubrfki0l68.cloudfront.net/ac1833dce386eb55d8e105248ef9126622e8e3e9/03f2d/fonts/mijaregular/mija_regular-webfont.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/0e0910ceb0e2f9adffd9db31665dafa4ec5c10ff/7214b/fonts/mijaregular/mija_regular-webfont.woff") format("woff")
 }
 
+@font-face {
+    font-family: Mija;
+    src: url("https://d33wubrfki0l68.cloudfront.net/94691bb5497213e09480b17ef68446d2b85667e9/d58ec/fonts/mijabold/mija_bold-webfont.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/1d162cc7792bc1f04919a5a344b4082087b9e012/855b4/fonts/mijabold/mija_bold-webfont.woff") format("woff");
+    font-weight: bold;
+}
+
 html,
 body {
     background-color: var(--default);
@@ -248,8 +254,8 @@ br {
     color: black;
     z-index: 5;
     text-align: center;
-    line-height: 30px;
-    left: 41vw;
+    line-height: 20px;
+    left: 40vw;
 }
 
 mark {
