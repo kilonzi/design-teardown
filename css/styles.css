@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: Mija;
-    src: url("https://d33wubrfki0l68.cloudfront.net/ac1833dce386eb55d8e105248ef9126622e8e3e9/03f2d/fonts/mijaregular/mija_regular-webfont.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/0e0910ceb0e2f9adffd9db31665dafa4ec5c10ff/7214b/fonts/mijaregular/mija_regular-webfont.woff") format("woff")
+    src: url("https://d33wubrfki0l68.cloudfront.net/ac1833dce386eb55d8e105248ef9126622e8e3e9/03f2d/fonts/mijaregular/mija_regular-webfont.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/0e0910ceb0e2f9adffd9db31665dafa4ec5c10ff/7214b/fonts/mijaregular/mija_regular-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -348,7 +348,6 @@ h6 {
 
 .full-list>ul {
     list-style-image: url(../bullet.svg);
-    /* list-style-type: disc; */
     padding-left: 60px;
 }
 
@@ -412,8 +411,6 @@ h6 {
 
 .read-more {
     display: block;
-    -webkit-transition: all .2s ease-out;
-    transition: all .2s ease-out;
     color: #d33a2c;
     font-size: 30px;
     padding: 40px 1.7em;
@@ -424,15 +421,13 @@ h6 {
     background: 0 0;
     background-color: var(--gray-5);
     margin-top: 60px;
-    position: absolute!important;
-    bottom: 0px;
-    left: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .read-more:hover {
     display: block;
-    -webkit-transition: all .2s ease-out;
-    transition: all .2s ease-out;
     color: #d33a2c;
     font-size: 30px;
     padding: 40px 1.7em;
@@ -444,8 +439,8 @@ h6 {
     background-color: #006fc6;
     margin-top: 60px;
     position: absolute!important;
-    bottom: 0px;
-    left: 0px;
+    bottom: 0;
+    left: 0;
 }
 
 
@@ -464,7 +459,6 @@ h6 {
 
 .full-centered>p {
     line-height: 30px;
-    font: bold;
     font-size: 20px;
     padding: 10px 0;
 }
